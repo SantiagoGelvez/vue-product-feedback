@@ -7,7 +7,7 @@
 
         <section class="flex gap-x-2 gap-y-4 p-6 flex-wrap bg-white rounded-xl">
             <button v-for="category in categories" :key="category.name"
-                class="py-1 px-4 rounded-xl bg-[#F2F4FF] text-[#4661E6] font-semibold">
+                class="text-sm rounded-xl bg-[#F2F4FE] text-[#4661E6] font-semibold w-fit py-2 px-4">
                 {{ category.name }}
             </button>
         </section>
